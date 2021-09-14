@@ -1,0 +1,138 @@
+/* Patron Mostly Fluid */
+
+
+/*  */
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+
+/* Cada columna se representa segun la resolucion del dispositivo */
+
+.columna1,
+.columna2 {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .columna2 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 800px) {
+    .columna1 {
+        width: 60%;
+    }
+    .columna2 {
+        width: 40%;
+    }
+    .container {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+/* Caracteristicas de la pagina inicial */
+
+.pagina_inicial {
+    background-color: rgba(0, 128, 0, 0.911);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    height: 220px;
+    justify-content: center;
+    width: 500px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 0px 0px #537c11;
+    padding-top: 30px;
+}
+
+
+/* Caracteristicas del encabezado de la página */
+
+.encabezado {
+    background-color: rgba(0, 128, 0, 0.911);
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 500px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 0px 0px #537c11;
+    padding-top: 10px;
+}
+
+.pie_pagina {
+    background-color: rgba(230, 248, 230, 0.911);
+    display: flex;
+    height: 50px;
+    width: 530px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 0px 0px #537c11;
+    padding-top: 10px;
+}
+
+
+/* Caracteristicas del cuerpo principal de la página */
+
+.cuerpo {
+    background-color: rgba(247, 250, 246, 0.911);
+    align-items: left;
+    display: flex;
+    height: 315px;
+    justify-content: center;
+    width: 500px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 0px 0px #537c11;
+    padding-top: 10px;
+}
+
+
+/* Caracteristicas de los atributos a capturas (label e inputs) */
+
+#contenedor {
+    width: 400px;
+    height: 280px;
+    margin: 1px 1px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 0px 0px #203302;
+    padding-top: 10px;
+}
+
+
+/* Caracteristicas del boton submit */
+
+#btn-registrar {
+    background-color: rgba(161, 219, 161, 0.911);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 90px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 0px 0px #537c11;
+    padding-top: 4px;
+}
+
+#btn-submit-form {
+    background-color: rgba(0, 128, 0, 0.911);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 90px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 0px 0px #537c11;
+    padding-top: 4px;
+}
+
+
+/* Caracteristicas de los titulos */
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

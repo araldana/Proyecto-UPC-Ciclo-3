@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNBD</title>
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+    <div class="container">
+        <section class="columna1">
+            <!-- Contenedor principal -->
+            <form id="form-registro" action="">
+                <!-- Encabezado de la página -->
+                <header>
+                    <div class="encabezado">
+                        <h2>Registro Nacional de Base de Datos - RNBD<br>Registro</h2>
+                    </div>
+                </header>
+                <!-- Cuerpo de la página -->
+                <div class="cuerpo">
+                    <fieldset id="contenedor">
+                        <!-- Atributo nombre -->
+                        <label for="nombre">Nombre<br>
+                                <input id="nombre" type="text" placeholder="Digite el nombre" size="45" maxlength="40">
+                            </label>
+                        <br><br>
+                        <!-- Atributo apellido -->
+                        <label for="apellido">Apellido<br>
+                                <input id="apellido" type="text" placeholder="Digite el apellido" size="45" maxlength="40"> 
+                            </label>
+                        <br><br>
+                        <!-- Atributo teléfono -->
+                        <label for="telefono">Teléfono<br>
+                                <input id="telefono" type="number" placeholder="Digite el telefono" size="20" maxlength="20">
+                            </label>
+                        <br><br>
+                        <!-- Atributo correo electrónico -->
+                        <label for="correo">Correo<br>
+                                <input id="correo" type="email" placeholder="Digite el correo electronico" size="45" maxlength="40">
+                            </label>
+                        <br><br>
+                        <!-- Atributo contraseña -->
+                        <label for="contrasena">Contraseña<br>
+                                <input id="contrasena" type="password" placeholder="Digite la contraseña" size="20" maxlength="20">
+                            </label>
+                    </fieldset>
+                </div>
+                <!-- Pie de la página  -->
+                <footer>
+                    <!-- - Boton de envio de la información -->
+                    <div align="center">
+                        <input id="btn-submit-form" type="submit" value="Registrar">
+                    </div>
+                </footer>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
